@@ -16,4 +16,3 @@
 - **Grade Display**: After logging in, students can view their grades.
 - **Single Class Structure**: All classes are encapsulated in a single file for easier management.
 
-Feel free to modify or expand upon this structure as needed! If you have any more questions or need further assistance, let me know!
