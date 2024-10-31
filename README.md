@@ -23,4 +23,23 @@ The development of the Student Grade Management System follows these key steps:
 
 **Documentation:** Providing comprehensive comments and documentation for code clarity and maintenance.
 
-  
+
+## Results and Screenshot ##
+
+After completing the implementation, the application successfully allows:
+
+**Administrator Login:** Secure access to grade management functions.
+
+**Grade Management:** Ability to add, edit, and delete grades.
+
+**Student View:** Easy access to view personal grades and GPA.
+
+**Screenshots:** (You can insert screenshots of your application here)
+
+  ###  Login Page ###
+
+  ###  Administrator Grade Management ###
+
+ ###   Student View ###
+
+ 
