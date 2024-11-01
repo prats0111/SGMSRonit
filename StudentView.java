@@ -29,6 +29,15 @@ public class StudentView extends JFrame {
         gpaLabel.setBounds(10, 220, 200, 25);
         add(gpaLabel);
 
+        // Logout button
+        JButton logoutButton = new JButton("Logout");
+        logoutButton.setBounds(300, 220, 80, 25);
+        logoutButton.addActionListener(e -> {
+            dispose(); // Close the student view
+            new LoginPage(gradeManager); // Return to login page
+        });
+        add(logoutButton);
+
         loadGrades();
     }
 
