@@ -1,0 +1,2 @@
+Main-Class: StudentGradeManagementSystem
+jar cfm StudentGradeManagementSystem.jar manifest.txt *.class
