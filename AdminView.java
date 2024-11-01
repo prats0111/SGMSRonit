@@ -75,6 +75,15 @@ public class AdminView extends JFrame {
         deleteButton.addActionListener(e -> deleteGrade());
         add(deleteButton);
 
+        // Logout button
+        JButton logoutButton = new JButton("Logout");
+        logoutButton.setBounds(400, 300, 100, 25);
+        logoutButton.addActionListener(e -> {
+            dispose(); // Close the admin view
+            new LoginPage(gradeManager); // Return to login page
+        });
+        add(logoutButton);
+
         loadAllGrades();
     }
 
